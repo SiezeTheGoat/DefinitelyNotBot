@@ -20,7 +20,7 @@ client.on('message', message => {
 client.on('message'), message => {
     if (message.content === '!youtube') {
         message.reply('http://youtube.com/c/sieze');
-    }
+        }
 });
 
 
